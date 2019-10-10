@@ -3,7 +3,7 @@
     "pins": [
       {
         "package": "HYSwiftPackageLibrary",
-        "repositoryURL": "https://github.com/abaothong/SwiftPackage.git",
+        "repositoryURL": "https://haoyiwork:haoyiwork1989@github.com/haoyiwork/privateSPM.git",
         "state": {
           "branch": "master",
           "revision": "2b3c243fb3274397f8a9c8d68d49142b6279fc52",

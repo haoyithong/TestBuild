@@ -7,14 +7,12 @@
 //
 
 import UIKit
-
+import HYSwiftPackageLibrary
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print(HYSwiftPackageLibrary.init().getLibraryVersion())
     }
-
-
 }
 

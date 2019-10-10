@@ -16,7 +16,7 @@
 		72E8A55E234EC1D4001F73DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E8A55C234EC1D4001F73DA /* LaunchScreen.storyboard */; };
 		72E8A569234EC1D4001F73DA /* CommandBuildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E8A568234EC1D4001F73DA /* CommandBuildTests.swift */; };
 		72E8A574234EC1D5001F73DA /* CommandBuildUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E8A573234EC1D5001F73DA /* CommandBuildUITests.swift */; };
-		72E8A583234EC402001F73DA /* HYSwiftPackageLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 72E8A582234EC402001F73DA /* HYSwiftPackageLibrary */; };
+		72E8A586234ED5C3001F73DA /* HYSwiftPackageLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 72E8A585234ED5C3001F73DA /* HYSwiftPackageLibrary */; };
 		D03D8C05FFC3F4B974BC8A96 /* Pods_CommandBuild.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3297962CB62B30575F29A7 /* Pods_CommandBuild.framework */; };
 		F235F1A8D598BCA61F69B842 /* Pods_CommandBuildUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5141CFF3CC522F583EF96DF /* Pods_CommandBuildUITests.framework */; };
 /* End PBXBuildFile section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72E8A583234EC402001F73DA /* HYSwiftPackageLibrary in Frameworks */,
+				72E8A586234ED5C3001F73DA /* HYSwiftPackageLibrary in Frameworks */,
 				D03D8C05FFC3F4B974BC8A96 /* Pods_CommandBuild.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,7 +189,7 @@
 			);
 			name = CommandBuild;
 			packageProductDependencies = (
-				72E8A582234EC402001F73DA /* HYSwiftPackageLibrary */,
+				72E8A585234ED5C3001F73DA /* HYSwiftPackageLibrary */,
 			);
 			productName = CommandBuild;
 			productReference = 72E8A54E234EC1D4001F73DA /* CommandBuild.app */;
@@ -266,7 +266,7 @@
 			);
 			mainGroup = 72E8A545234EC1D4001F73DA;
 			packageReferences = (
-				72E8A581234EC402001F73DA /* XCRemoteSwiftPackageReference "SwiftPackage" */,
+				72E8A584234ED5C3001F73DA /* XCRemoteSwiftPackageReference "privateSPM" */,
 			);
 			productRefGroup = 72E8A54F234EC1D4001F73DA /* Products */;
 			projectDirPath = "";
@@ -741,9 +741,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		72E8A581234EC402001F73DA /* XCRemoteSwiftPackageReference "SwiftPackage" */ = {
+		72E8A584234ED5C3001F73DA /* XCRemoteSwiftPackageReference "privateSPM" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/abaothong/SwiftPackage.git";
+			repositoryURL = "https://haoyiwork:haoyiwork1989@github.com/haoyiwork/privateSPM.git";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -752,9 +752,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		72E8A582234EC402001F73DA /* HYSwiftPackageLibrary */ = {
+		72E8A585234ED5C3001F73DA /* HYSwiftPackageLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 72E8A581234EC402001F73DA /* XCRemoteSwiftPackageReference "SwiftPackage" */;
+			package = 72E8A584234ED5C3001F73DA /* XCRemoteSwiftPackageReference "privateSPM" */;
 			productName = HYSwiftPackageLibrary;
 		};
 /* End XCSwiftPackageProductDependency section */
